@@ -43,7 +43,7 @@ class MemberTile extends StatelessWidget {
               ),
               subtitle: Text(
                 currentMember?.cellPhone ?? '',
-                style: GoogleFonts.girassol(
+                style: GoogleFonts.googleSans(
                     textStyle: TextStyle(
                         color: '#3b4252'.toColor(),
                         fontSize: 14.0,
